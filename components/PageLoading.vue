@@ -7,7 +7,7 @@
         size="70"
       />
       <div class="pt-3">
-        กำลังโหลด...
+        Loading...
       </div>
     </v-overlay>
   </div>

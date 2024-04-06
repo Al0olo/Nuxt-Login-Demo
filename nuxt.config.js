@@ -82,9 +82,9 @@ export default {
           property: ''
         },
         endpoints: {
-          login: { url: process.env.URL_API + '/login', method: 'post' },
-          logout: { url: process.env.URL_API + '/logout', method: 'delete' },
-          user: { url: process.env.URL_API + '/users', method: 'get' }
+          login: { url: process.env.URL_API + '/mgr/auth/login', method: 'post' },
+          logout: { url: process.env.URL_API + '/mgr/auth/logout', method: 'delete' },
+          user: { url: process.env.URL_API + '/mgr/auth/users', method: 'get' }
         }
       }
     }
